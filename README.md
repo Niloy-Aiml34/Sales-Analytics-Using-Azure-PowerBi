@@ -20,7 +20,7 @@ To solve this problem first data needs to be united at a place, then clean the d
 
 ## 🏗️ Architecture  
 
-![Architecture Diagram](https://github.com/Niloy-Aiml34/Data_Engineering/tree/main/Architecture)  
+![Architecture Diagram](https://github.com/Niloy-Aiml34/Data_Engineering/blob/main/Architecture/Architecture.jpg)  
 
 ---
 
