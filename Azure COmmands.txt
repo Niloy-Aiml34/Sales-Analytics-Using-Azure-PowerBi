@@ -1,0 +1,16 @@
+Azure Commands
+
+To check the available node: az vm list-skus --location eastus --size Standard_4F --all --output table
+
+
+Connect Datalake using Unity Catalog:
+
+create access connector for databricks => add to datalake role => create a databricks credential => create a databricks external location 
+
+reference video:
+
+https://youtu.be/VkjqViooMtQ?si=jCpJprXf7adJ4cHj
+
+
+
+resource id: /subscriptions/41c0483e-78a8-458f-83db-46eb1302878d/resourceGroups/AZ_Project/providers/Microsoft.Databricks/accessConnectors/azproject_access
