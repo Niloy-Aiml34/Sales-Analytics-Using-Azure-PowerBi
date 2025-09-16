@@ -39,7 +39,7 @@ To solve this problem first data needs to be united at a place, then clean the d
 
 ## 📈 Dashboards  
 
-![Dashboard Preview](https://github.com/Niloy-Aiml34/Data_Engineering/blob/main/dashboards/DashBoard_Image.png)  
+![Dashboard Preview](https://github.com/Niloy-Aiml34/Sales-Analytics-Using-Azure-PowerBi/blob/main/Dashboards/DashBoard_Image.png)  
 
 ---
 
