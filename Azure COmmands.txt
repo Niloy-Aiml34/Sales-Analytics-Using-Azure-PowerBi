@@ -13,4 +13,3 @@ https://youtu.be/VkjqViooMtQ?si=jCpJprXf7adJ4cHj
 
 
 
-resource id: /subscriptions/41c0483e-78a8-458f-83db-46eb1302878d/resourceGroups/AZ_Project/providers/Microsoft.Databricks/accessConnectors/azproject_access

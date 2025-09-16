@@ -1,0 +1,1 @@
+SELECT * from gold.product_subcategories;
