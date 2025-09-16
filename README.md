@@ -26,13 +26,14 @@ To solve this problem first data needs to be united at a place, then clean the d
 
 ## ⚙️ Tech Stack Usage  
 
-| Step                                              | Technology Used                                         | Purpose                                    |
-| ------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------ |
-| **Data Ingestion**                                | Azure Data Factory (Linked Service to GitHub via HTTPS) | Pull raw sales & returns data              |
-| **Raw Storage (Bronze Layer)**                    | Azure Data Lake Storage                                 | Store unprocessed data                     |
-| **Data Cleaning & Transformation (Silver Layer)** | Azure Databricks                                        | Clean, transform, and prepare data         |
-| **Business Data Models (Gold Layer)**             | Azure Synapse Analytics                                 | Create structured, business-ready datasets |
-| **Visualization**                                 | Power BI                                                | Build interactive dashboards & insights    |
+| Step                                              | Technology Used                                         | Purpose                                                                                                                                      |
+| ------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Data Ingestion**                                | Azure Data Factory (Linked Service to GitHub via HTTPS) | Pull raw sales & returns data                                                                                                                |
+| **Raw Storage (Bronze Layer)**                    | Azure Data Lake Storage                                 | Store unprocessed data                                                                                                                       |
+| **Data Cleaning & Transformation (Silver Layer)** | Azure Databricks                                        | Clean, transform, and prepare data                                                                                                           |
+| **Business Data Models (Gold Layer)**             | Azure Synapse Analytics                                 | - Built **SQL Views** for structured datasets <br> - Created **External Tables** for BI connectivity <br> - Exposed curated data to Power BI |
+| **Visualization**                                 | Power BI (connected to Synapse)                         | Build interactive dashboards & insights                                                                                                      |
+
 
 ---
 
@@ -44,39 +45,29 @@ To solve this problem first data needs to be united at a place, then clean the d
 
 ## 🔍 Key Insights  
 
-### 📊 Performance  
+#### 📊 Performance  
 - **Total Revenue** = 24.91M  
 - **Total Orders** = 25.16K  
 - **Average Order Value** = 990.09  
 
-### 🏷️ Top Categories  
+#### 🏷️ Top Categories  
 - 🚴 **Bikes** = 94.89% of revenue  
 - 🛠️ Accessories & 👕 Clothing = Smaller share but **growth potential**  
 
-### 🛒 Top Products  
+#### 🛒 Top Products  
 - Water Bottle – 30 oz  
 - Patch Kit / 8 Patches  
 - Mountain Tire Tube  
 
-### ⚠️ Returns & Risks  
+#### ⚠️ Returns & Risks  
 - **Return Rate** = 7.28%  
 - Most returns from **Water Bottles**  
 
-### 💰 Profitability  
+#### 💰 Profitability  
 - Strong **Profit Margin** = 43.52%  
 - **YoY Growth** = 14.70% (despite recent dips)  
 
-### 🌍 Geography  
+#### 🌍 Geography  
 - **US & Australia** → Lead in revenue & returns  
 - **UK, France, Germany** → Medium growth potential  
 
----
-
-## ⚡ Getting Started  
-
-Follow these steps to set up and replicate the project:  
-
-### 1. Clone the Repository  
-```bash
-git clone https://github.com/your-username/sales-analysis-insights.git
-cd sales-analysis-insights
